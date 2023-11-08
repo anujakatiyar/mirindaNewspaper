@@ -1,0 +1,185 @@
+@font-face {
+    font-family: domain;
+    src: url(./5f242a69b1577e63266b4d72_DomaineDispCondMedium.ttf);
+}
+@font-face {
+    font-family: main;
+    src: url(./5f242a694256f02b944d5767_EditorialNew-Light.ttf);
+}
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=EB+Garamond:wght@600;700;800&family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Distressed&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height:100%;
+    width: 100%;
+}
+#main{
+    width:100%;
+    background-color:rgba(226, 222, 219, 1);
+}
+#page1{
+
+    width:100vw;
+    background-color:rgba(226, 222, 219, 1);
+    position: relative;
+    overflow-x: hidden;
+  
+}
+#nav-part-1{
+    height:70px;
+  
+    width:100%;
+    padding:0vw 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+
+
+}
+h4{
+    font-family:'Times New Roman', Times, serif;
+  font-weight: 100;
+    word-spacing: 4;
+}
+.img-container{
+    height:50px ;
+    width: 120px;
+
+
+}
+#nav-part-1 i{
+
+
+}
+img{
+    height:100% ;
+width: 100%;
+object-fit: center;
+}
+#elems{
+    margin-top: 2vw;
+    height:25vw;
+    width:100%;
+
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.elem{
+    height:100%;
+    width:32%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding:1vw;
+    border-right: 1px solid black;
+ margin-bottom: 5vw;
+}
+.elem #image{
+    width:86%;
+    height:70%;
+    border:1px solid black;
+    overflow: hidden;
+ 
+}
+.elem #image img{
+    transition: all ease 0.4s;
+}
+.elem #image:hover img{
+    scale:1.1;
+    cursor: pointer;
+}
+.elem #content{
+    width:90%;
+    padding:4vh 0vh;
+    font-family: domain;
+
+}
+.elem #content h3{
+    font-size : 20px;
+    padding-bottom: 2.8vh;
+    font-family: canopee;
+}
+.elem #content h5{
+    font-size : large;
+    font-weight: 100;
+}
+#page1 h1{
+ 
+    background-color: black;
+
+  color:rgba(226, 222, 219, 1);
+  font-size:31.5vw;
+  word-spacing: 1; height:100%;
+  width:100%;
+  font-family: domain;
+  font-weight: 100;
+  width:96%;
+  margin-left:2%;
+line-height: 28vw;
+letter-spacing: -20px;
+padding:5px;
+}
+#page2{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:1vw;
+    padding: 2vw;
+    width:100vw;
+
+}
+#page2 #left{
+    background-color: aqua;
+width:30%;
+border-left: 1px solid black;
+
+
+ 
+}
+#page2 #left #con-head{
+    background-color: aqua;
+
+}
+#page2 #left #con-head h2{
+    font-size: 4.5vw;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family:domain;
+}
+#page2 #left #con-head h1{
+    font-size: 7.5vw;
+    text-transform: uppercase;
+    font-family:domain;
+
+
+}
+#page2 #right{
+    background-color: aqua;
+width:70%;
+border-left: 1px solid black;
+margin-left: 4vw;
+padding-left:3vw
+
+ 
+}
+#right #ri-con-img{
+}
+#right #ri-con{
+ font-family:domain;
+font-weight: 900;
+font-size: 3vw;
+font-stretch: extra-expanded;
+
+}
+#right #ri-img{
+
+}
